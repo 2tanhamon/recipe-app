@@ -1,0 +1,23 @@
+.searchForm {
+  margin: 50px 0;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  background-color: #494949;
+  input {
+    border: none;
+    background-color: #494949;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    width: 100%;
+    height: 100%;
+  }
+  svg {
+    color: white;
+    margin-right: 10px;
+  }
+}

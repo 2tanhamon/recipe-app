@@ -1,0 +1,28 @@
+.recipeCard {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  margin-bottom: 10px; // for box-shadow
+  display: block;
+  p {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 44px;
+    text-align: center;
+  }
+  img {
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
